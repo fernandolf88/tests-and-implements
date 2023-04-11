@@ -62,8 +62,7 @@ crawler.parse(websites[3], 'https://www.nytimes.com/2018/01/28/business/energy-e
 
 
 		
-		
-	# pages = set()
+# pages = set()
 # random.seed(datetime.datetime.now())
 
 # #Obtém uma lista de todos os links
