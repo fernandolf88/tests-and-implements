@@ -6,7 +6,7 @@ response = requests.get(url)
 raw_html = response.text
 parsed_html = BeautifulSoup(raw_html, 'html.parser')
 
-name_school = parsed_html.select_one('#container > div > div.ui-widget-content > div > p')
+name_school = parsed_html.select_one('#box > div.login')
 
 if name_school is not None:
-	print(name_school.parent)
+	print(name_school.text)
